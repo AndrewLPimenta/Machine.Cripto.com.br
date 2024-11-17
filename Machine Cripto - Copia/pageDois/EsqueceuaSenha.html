@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="../styles.css"> -->
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="../assets/LOGO__2_-removebg-preview.png">
+  <title>Machine Cripto</title>
+</head>
+
+<body class="cont"> 
+  <nav class="navbar navbar-dark fixed-top" style="background-color: #272727;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><img class="logo_machine" src="../assets/logo.machinecrip.png"
+          alt=""></a>
+          <div class="navbar-links-large d-none d-lg-flex">
+            <a class="nav-link" href="../index.html" style="color: #f6f6f6">Home</a>
+            <a class="nav-link" href="./indexDois.html" style="color: #f6f6f6">Sobre</a>
+            <a class="nav-link" href="./Termos.html" style="color: #f6f6f6">Termos de uso</a>
+            <!-- <a class="nav-link btn btn-primary text-white" href="#login"></a> -->
+        </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header" style="background-color: #272727; color: #f6f6f6;">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #f6f6f6;">Menu</h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #272727; color: #f6f6f6;">
+          <ul class="navbar-nav justify-content-end pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html" style="color: #f6f6f6;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./loguin.html" style="color: #f6f6f6;">Entre ou Cadastre-se</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                style="color: #f6f6f6;">
+                Mais
+              </a>
+              <ul class="dropdown-menu" style="background-color: #272727;">
+                <li><a class="dropdown-item" href="./adquirir-cartao.html" style="color: #f6f6f6;">Machine Card</a></li>
+                <li><a class="dropdown-item" href="./indexDois.html" style="color: #f6f6f6;">Sobre Nós</a></li>
+                <li><a class="dropdown-item" href="./Termos.html" style="color: #f6f6f6;">Termos de uso</a></li>
+                <li>
+                  <hr class="dropdown-divider" style="background-color: #f6f6f6;">
+                </li>
+                <li><a class="dropdown-item" href="./atendimento ao cliente.html" style="color: #f6f6f6;">Atendimento ao cliente</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex mt-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="O que você procura?" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <main class="mainmain">
+
+
+    <div class="sessaoLoguin">
+    <div class="reset-password-container">
+      <h2>Esqueceu sua senha?</h2>
+      
+
+      <form >
+        <div class="input-wrapper">
+          <label for="email">E-mail</label>
+        
+        </div>
+
+        <form id="reset-password-form" action="/enviar-email" method="POST" class="form">
+      
+          
+          <div class="inputForm">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" viewBox="0 0 32 32" height="20">
+              <g data-name="Layer 3" id="Layer_3">
+                <path
+                  d="m30.853 13.87a15 15 0 0 0 -29.729 4.082 15.1 15.1 0 0 0 12.876 12.918 15.6 15.6 0 0 0 2.016.13 14.85 14.85 0 0 0 7.715-2.145 1 1 0 1 0 -1.031-1.711 13.007 13.007 0 1 1 5.458-6.529 2.149 2.149 0 0 1 -4.158-.759v-10.856a1 1 0 0 0 -2 0v1.726a8 8 0 1 0 .2 10.325 4.135 4.135 0 0 0 7.83.274 15.2 15.2 0 0 0 .823-7.455zm-14.853 8.13a6 6 0 1 1 6-6 6.006 6.006 0 0 1 -6 6z">
+                </path>
+              </g>
+            </svg>
+            <input placeholder="Exemplo.com@gmail.com" class="input" type="email"
+            id="email"
+            name="email"
+            placeholder="Digite seu e-mail"
+            required>
+          </div>
+
+
+
+
+
+        <div class="sessaoCartaoo">
+          
+          <a href="./adquirir-cartao.html" style="text-decoration: none;" class="link-btn">
+            <button type="submit" class="animated-button">
+              <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+              <span class="text">Cartões Machine</span>
+              <span class="circle"></span>
+              <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                ></path>
+              </svg>
+            </button>
+          </a>
+        </div>
+      <p class="back-to-login" style="display: flex; margin: 0 auto;">
+        <a class="back-to-login" href="loguin.html" >Voltar para o login</a>
+      </p>
+    </div>
+  </div>
+    <script src="app.js"></script>
+  </body>
+</html>

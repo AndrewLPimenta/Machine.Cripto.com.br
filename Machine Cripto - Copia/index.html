@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="icon" href="./assets/LOGO__2_-removebg-preview.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
+  <title>Machine Cripto</title>
+</head>
+
+<body>
+
+  <header class="headerrr">
+    <nav class="navbar navbar-dark fixed-top" style="background-color: #272727;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img class="logo_machine" src="./assets/logo.machinecrip.png" alt=""></a>
+        <div class="navbar-links-large d-none d-lg-flex">
+          <a class="nav-link" href="./index.html" style="color: #f6f6f6">Home</a>
+          <a class="nav-link" href="./pageDois/indexDois.html" style="color: #f6f6f6">Sobre</a>
+          <a class="nav-link" href="./pageDois/Termos.html" style="color: #f6f6f6">Termos de uso</a>
+          <!-- <a class="nav-link btn btn-primary text-white" href="#login"></a> -->
+      </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header" style="background-color: #272727" ;>
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #f6f6f6;">Menu</h5>
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+              aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" style="background-color: #272727; ;">
+            <ul class="navbar-nav justify-content-end pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pageDois/loguin.html">Entre ou Cadastre-se</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Mais
+                </a>
+                <ul class="dropdown-menu" style="background-color: #272727;">
+                  <li><a class="dropdown-item" href="./pageDois/adquirir-cartao.html">Machine Card</a></li>
+                  <li><a class="dropdown-item" href="./pageDois/indexDois.html">Sobre Nós</a></li>
+                  <li><a class="dropdown-item" href="./pageDois/Termos.html" ">Termos de uso</a></li>
+                  <li>
+                    <hr class=" dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./pageDois/atendimento ao cliente.html" ">Atendimento ao cliente</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class=" d-flex mt-3" role="search">
+                      <input class="form-control me-2" type="search" placeholder="O que você procura?"
+                        aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                      </form>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+  </header>
+  <div class="banner">
+
+
+
+
+
+    <img class="bannerInittt" src="./assets/Home.png" alt="Banner Inicial">
+    <div class="overlay">
+      <h1 class="title-home">Seu Banco, suas <strong class="palavraChave1"> Regras.</strong></h1>
+      <p class="p-home">O banco que combina com sua exclusividade, princípios e qualidade de vida.</p>
+      <button class="banner-button" id="btnInit" onclick="scrollToDestino()">Saiba mais</button>
+    </div>
+  </div>
+
+
+
+  <div class="sesson" >
+
+
+
+
+
+  
+    
+
+
+    <div class="containerr" >
+      <h1 class="mensagem" id="destino">Simples, Segura e Completa.</h1>
+    </div>
+    
+    <div class="divSEC" >
+      
+      <img src="./assets/6bsewEdUAqn9otPtXw5Mr-transformed.png" alt="Vantagens do Uso de Criptomoedas" class="foto1">
+    
+      <div class="divSECText">
+
+
+
+
+
+
+
+
+        <h1 class="contain_t1">A grandeza de um patrimônio de elite merece a solidez</h1>
+        <h1 class="contain_t1">e exclusividade de um banco à sua altura.</h1>
+        <h2 class="contain_t2">A experiência Personalizado que só um banco cripto oferece</h2>
+        <h2 class="contain_t2">Com cartões sem anuidade e vários benefícios.</h1>
+      </div>
+    </div>
+  </div>
+  
+  <div class="sesson">
+    <div class="list-description">
+      <p><strong>Invista no futuro e amplifique seu portfólio com as criptomoedas de maior potencial!</strong> 
+    </div>
+    <div id="crypto-list-1" class="crypto-list">
+      <!-- Primeira lista de criptomoedas -->
+      <!-- Bitcoin (BTC) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Bitcoin" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">BTC</span>
+            <span class="crypto-name">Bitcoin</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="btc-price">$89,242.01</span>
+            <span class="crypto-change" id="btc-change">+11,02%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Ethereum (ETH) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">ETH</span>
+            <span class="crypto-name">Ethereum</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="eth-price">$4,242.15</span>
+            <span class="crypto-change" id="eth-change">+8,13%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Binance Coin (BNB) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance Coin" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">BNB</span>
+            <span class="crypto-name">Binance Coin</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="bnb-price">$350.80</span>
+            <span class="crypto-change" id="bnb-change">+5,35%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- XRP (Ripple) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/xrp-xrp-logo.png?v=002g" alt="XRP" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">XRP</span>
+            <span class="crypto-name">XRP</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="xrp-price">$1.25</span>
+            <span class="crypto-change" id="xrp-change">+3,60%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Solana (SOL) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/solana-sol-logo.png" alt="Solana" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">SOL</span>
+            <span class="crypto-name">Solana</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="sol-price">$12.15</span>
+            <span class="crypto-change" id="sol-change">+2,00%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div id="crypto-list-2" class="crypto-list" style="display: none;">
+      <!-- Segunda lista de criptomoedas com 5 criptos adicionais -->
+      
+      <!-- Polkadot (DOT) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/polkadot-new-dot-logo.png" alt="Polkadot" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">DOT</span>
+            <span class="crypto-name">Polkadot</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="dot-price">$35.42</span>
+            <span class="crypto-change" id="dot-change">+1,47%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Dogecoin (DOGE) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/dogecoin-doge-logo.png" alt="Dogecoin" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">DOGE</span>
+            <span class="crypto-name">Dogecoin</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="doge-price">$0.25</span>
+            <span class="crypto-change" id="doge-change">+4,02%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Cardano (ADA) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/cardano-ada-logo.png" alt="Cardano" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">ADA</span>
+            <span class="crypto-name">Cardano</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="ada-price">$1.32</span>
+            <span class="crypto-change" id="ada-change">+2,75%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- KAI (KAI) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/karbo-krb-logo.png?v=002" alt="Kai" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">KAI</span>
+            <span class="crypto-name">Kai</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="kai-price">$3.01</span>
+            <span class="crypto-change" id="kai-change">+1.25%</span>
+          </div>
+        </div>
+      </div>
+    
+      <!-- Cetus (CETUS) -->
+      <div class="crypto-item">
+        <div class="container_coin">
+          <img src="https://cryptologos.cc/logos/chiliz-chz-logo.png?v=002" alt="Cetus" class="crypto-icon" />
+          <div class="crypto-info">
+            <span class="crypto-symbol">CETUS</span>
+            <span class="crypto-name">Cetus</span>
+          </div>
+          <div class="crypto-price-container">
+            <span class="crypto-price" id="cetus-price">$0.89</span>
+            <span class="crypto-change" id="cetus-change">+5,40%</span>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+    <!-- Botão para alternar entre as listas -->
+    <div class="botaoDiv">
+      <button" id="toggle-button">Mostrar mais promissoras</button>
+    </div>
+    
+    
+    
+</div>
+
+
+
+
+    <div class="sessondivv">
+      <div class="sessonTexto">
+        <h1 class="contain_t1">Posicione seus Ativos em um</h1>
+        <h2 class="contain_t2">caminho de valorização contínua</h2>
+        <h2 class="contain_t2">com Alta performance.</h2>
+      </div>
+      <img class="foto1" src="./assets/bolsa-premium-de-negocios-on-line_1108188-5-transformed-removebg-preview.png" alt="Casos de Uso Comuns">
+    </div>
+  </div>
+
+  <div class="sessondiv">
+    <img class="foto1" src="assets\DeWatermark.ai_1731804069520 (1) (1) (1) (1).png" alt="Exemplos de Empresas que Aceitam Criptomoedas">
+    <div class="sessondiv">
+      <div class="divSECText">
+        <h1 class="contain_t3">Faça trades de onde estiver</h1>
+        <h1 class="contain_t3">Em qualquer lugar, a qualquer hora.</h1>
+        <h2 class="contain_t2">Comece a ganhar hoje mesmo.</h2>
+      </div>
+    </div>
+  </div>
+  </section class="termosDeuso">
+
+
+  <div class="containerr">
+    <div class="text-containerr">
+      <h1 class="text1">Exclusividade e Luxo <strong class="palavraChave">para você</strong>.</h1>
+    </div>
+    <img src="./assets/Design sem nome (12).png" alt="" class="foto2">
+  </div>
+  <section class="session_acord">
+      <!--  
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            <span class="material-symbols-outlined">currency_bitcoin</span> Inovação em Cripto
+          </button>
+        </h2>
+    
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+          <div class="accordion-body">
+            <strong>No dinâmico universo financeiro de hoje, as criptomoedas emergem como a escolha ideal para quem
+              busca liberdade e controle sobre suas finanças. Como um banco digital inovador, oferecemos uma plataforma
+              segura e fácil de usar, onde você pode comprar, vender e gerenciar suas criptomoedas com total
+              confiança.</strong> Nossos serviços incluem transferências instantâneas, isenção de taxas ocultas e um
+            cartão que possibilita gastar suas criptos em qualquer lugar. Com o suporte contínuo da nossa equipe de
+            especialistas, você terá todas as ferramentas necessárias para prosperar nesse novo mercado. Não fique para
+            trás; entre para a revolução financeira!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            <span class="material-symbols-outlined">style</span>Cartões Globalizados
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>Descubra a liberdade financeira com nossos cartões globalizados, projetados para facilitar
+              transações em qualquer moeda, seja ela fiduciária ou criptográfica. Com um único cartão, você pode fazer
+              câmbio instantâneo entre moedas governamentais e criptomoedas, aproveitando as melhores taxas do
+              mercado.</strong> Viaje, compre e gerencie seu dinheiro de forma prática e segura. Nossos cartões oferecem
+            integração total com sua conta digital, permitindo que você acesse seus ativos em qualquer lugar do mundo.
+            Transforme sua experiência financeira e mantenha-se à frente com a flexibilidade que só um cartão
+            globalizado pode proporcionar!
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            <span class="material-symbols-outlined">workspace_premium</span> Experiência Premium
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>No nosso banco digital, a exclusividade não é apenas um conceito; é um compromisso. Nós nos
+              especializamos em atender clientes que buscam serviços financeiros sob medida, com um padrão elevado de
+              qualidade e sofisticação. Aqui, cada cliente é tratado como único, recebendo atenção personalizada e
+              soluções financeiras que refletem seu estilo de vida.</strong> Com acesso a produtos exclusivos,
+            assessoria financeira dedicada e um atendimento que prioriza a discrição e a eficiência, garantimos que sua
+            experiência conosco seja inigualável. Se você valoriza privacidade, segurança e inovação, nós temos a
+            solução perfeita para você.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseFour">
+            <span class="material-symbols-outlined">account_balance</span> Detalhes da Conta
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+          <div class="accordion-body">
+            <strong>Descubra a conveniência e a modernidade de ter uma conta 100% digital, onde você pode gerenciar suas
+              finanças de forma rápida e segura, a qualquer hora e em qualquer lugar. Nossa plataforma oferece acesso
+              total a todos os serviços bancários com apenas alguns cliques.</strong> Com recursos como transferências
+            instantâneas, pagamentos de contas, investimento em criptomoedas e controle de gastos em tempo real, você
+            tem tudo o que precisa na palma da mão. Além disso, nossa interface intuitiva garante uma experiência
+            fluida, sem complicações. Seja você um cliente individual ou uma empresa, nossa conta digital é projetada
+            para atender suas necessidades específicas, oferecendo suporte dedicado e ferramentas personalizadas.
+            Aproveite a liberdade de gerenciar suas finanças sem limites e sem filas.
+          </div>
+        </div>
+      </div>
+    </div>
+<!--  -->
+<div class="acordeao" id="acordeaoExemplo">
+
+  <div class="acordeao-item" id="acordeaoItem1">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso1', 'acordeaoItem1')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">question_mark</span> O que é um banco cripto
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso1" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Banco cripto ou CriptoBanco é um banco 100% digital que oferece aos seus clientes a possibilidade de comprar criptomoedas de forma simples e acessível.</strong> Diferente das corretoras, o usuário tem acesso a um cartão virtual ou físico para realizar compras, além de funcionalidades de compra e venda de criptomoedas.
+      </div>
+    </div>
+  </div>
+
+  <div class="acordeao-item" id="acordeaoItem2">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso2', 'acordeaoItem2')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">currency_bitcoin</span> Mercado de criptos
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso2" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Explore o Futuro Financeiro no nosso banco digital, Compre, venda e invista em criptomoedas com segurança e facilidade. Acesse as melhores taxas e oportunidades do mercado cripto em um só lugar!</div>
+    </div>
+  </div>
+
+  <div class="acordeao-item" id="acordeaoItem3">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso3', 'acordeaoItem3')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">shopping_bag</span> Compras e Pagamentos
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso3" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Com nosso banco digital, você paga com cartão e recebe em criptomoedas! tudo rápido, seguro e sem complicação.</strong> Com um único cartão, você pode fazer câmbio instantâneo e realizar compras em qualquer lugar.
+      </div>
+    </div>
+  </div>
+
+  <div class="acordeao-item" id="acordeaoItem4">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso4', 'acordeaoItem4')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">style</span> Cartões Globalizados
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso4" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Com nossos cartões globalizados, você também pode converter instantaneamente entre moedas tradicionais e criptomoedas.</strong> Integração total com sua conta digital permite que você acesse seus ativos em qualquer lugar do mundo.
+      </div>
+    </div>
+  </div>
+
+  <div class="acordeao-item" id="acordeaoItem5">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso5', 'acordeaoItem5')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">workspace_premium</span> Experiência Premium
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso5" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Nós nos especializamos em atender clientes que buscam serviços financeiros com um padrão elevado de qualidade e sofisticação.</strong> Assessoria financeira dedicada e atendimento eficiente para uma experiência premium.
+      </div>
+    </div>
+  </div>
+
+  <div class="acordeao-item" id="acordeaoItem6">
+    <div class="acordeao-cabecalho" onclick="toggleAcordeao('colapso6', 'acordeaoItem6')">
+      <button class="acordeao-botao">
+        <span class="material-symbols-outlined">account_balance</span> Detalhes da Conta
+      </button>
+      <span class="seta material-symbols-outlined">expand_more</span>
+    </div>
+    <div id="colapso6" class="acordeao-colapso">
+      <div class="acordeao-corpo">
+        <strong>Descubra a conveniência de uma conta 100% digital, com acesso completo a todos os serviços bancários.</strong> Transferências instantâneas, pagamentos de contas e controle de gastos em tempo real na palma da sua mão.
+      </div>
+    </div>
+  </div>
+
+</div>
+
+</div>
+  </section>
+  <div class="finaly">
+    <div class="cards-end">
+
+      <div class="outer">
+        <div class="dot"></div>
+        <div class="cardd">
+          <div class="ray"></div>
+          <div class="text">24h</div>
+          <div>De Atendimento Disponível</div>
+          <div class="line topl"></div>
+          <div class="line leftl"></div>
+          <div class="line bottoml"></div>
+          <div class="line rightl"></div>
+        </div>
+      </div>
+
+
+
+      <div class="outer">
+        <div class="dot"></div>
+        <div class="cardd">
+          <div class="ray"></div>
+          <div class="text">+10k</div>
+          <div>De Criptomoedas Disponíveis</div>
+          <div class="line topl"></div>
+          <div class="line leftl"></div>
+          <div class="line bottoml"></div>
+          <div class="line rightl"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="cards-end">
+
+      <div class="outer">
+        <div class="dot"></div>
+        <div class="cardd">
+          <div class="ray"></div>
+          <div class="text">7 dias</div>
+          <div>De Funcionamento Semanal</div>
+          <div class="line topl"></div>
+          <div class="line leftl"></div>
+          <div class="line bottoml"></div>
+          <div class="line rightl"></div>
+        </div>
+      </div>
+
+      <div class="outer">
+        <div class="dot"></div>
+        <div class="cardd">
+          <div class="ray"></div>
+          <div class="text">100%</div>
+          <div>De Segurança e Liquídez</div>
+          <div class="line topl"></div>
+          <div class="line leftl"></div>
+          <div class="line bottoml"></div>
+          <div class="line rightl"></div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  </section>
+  
+  <div class="botaoDiv">
+    
+    <a href="./pageDois/indexDois.html" style="text-decoration: none;" class="link-btn">
+      <button class="animated-button">
+        <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+        </svg>
+        <span class="text">Saiba mais</span>
+        <span class="circle"></span>
+        <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"></path>
+        </svg>
+      </button>
+    </a>
+    
+  </div>
+
+  <footer class="rodape">
+    <p>Todos os direitos reservados ® Machine Cripto</p>
+  </footer>
+  <script src="./app.js"></script>
+</body>
+
+</html>
