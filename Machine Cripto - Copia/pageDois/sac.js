@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "bot-message",
       "fadeUp"
     );
-    optionsMessageContainer.innerHTML = `<span class="message-text">Qual informação você procura? <br> 1 - Como consigo abrir minha conta? <br> 2 - Como funcionam os pagamentos com criptomoedas? <br> 3 - Como funcionam os recebimentos por criptomoedas? <br> 4 - Não estou conseguindo solicitar minha conta <br> 5 - Mais opções</span>`;
+    optionsMessageContainer.innerHTML = `<span class="message-text">Qual informação você procura? <br> 1 - Como consigo abrir minha conta? <br> 2 - Como funcionam os pagamentos com criptomoedas? <br> 3 - Como funcionam os recebimentos por criptomoedas? <br> 4 - Quem são os CEO´s ? <br> 5 - Mais opções</span>`;
     document.getElementById("chat-box").appendChild(optionsMessageContainer);
     scrollToBottom(); // Garante que o chat role para o final
   }, 1000); // Delay para a segunda mensagem
@@ -76,7 +76,7 @@ function handleBotResponse(userMessage) {
         "📲 *Receber Pagamentos em Cripto*: <br>Com nossas maquininhas de cartão compatíveis com criptomoedas, você pode aceitar pagamentos em cripto diretamente de seus clientes. O valor recebido pode ser automaticamente convertido para moeda fiduciária, simplificando a gestão financeira.";
     } else if (userMessage === "4") {
       botMessage =
-        "❌ *Erro ao Solicitar Conta*: <br>Caso tenha dificuldades para abrir sua conta, siga estas etapas:<br> <br>1️⃣ Certifique-se de que todos os dados estão corretos.<br> <br>2️⃣ Verifique sua conexão com a internet. <br><br>3️⃣ Entre em contato com nosso suporte via chat ou telefone<br> disponível 24/7, para assistência personalizada.";
+        "💻 *CEO´S*: <br>Nossos ceo´s são:<br> <br>1 Andrew Pimenta<br>2  Alisson Alves <br>3 Kevynn Alves <br>4 Pedro Teixeira <br>5 Samuel Monteiro";
     } else if (userMessage === "5") {
       botMessage =
         "📚 *Mais Opções*: Aqui estão algumas opções adicionais: <br><br>6 - Quais os cartões ofertados? <br>7 - Quais os benefícios ofertados? <br> - O que é Machine Cripto? <br> - Como proteger minhas transações? <br>10 - Falar com um atendente humano <br>11 - Voltar para o início";
