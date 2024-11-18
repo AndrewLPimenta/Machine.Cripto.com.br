@@ -2,6 +2,14 @@
   font-family: "Inter", sans-serif;
 }
 
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  box-shadow: 0 0.1rem 0.5rem #fff;
+}
+
 body {
   font-family: "Inter", sans-serif;
   margin: 0;
